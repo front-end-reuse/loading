@@ -1,0 +1,23 @@
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+
+<button id="btn" style="margin-left: auto;margin-right: auto;margin-top: 50px">showLoading</button>
+
+<script src="../dist/index.js"></script>
+<script>
+    document.querySelector("#btn").addEventListener('click', function () {
+         var loading= showLoading('loading...')
+        setTimeout(()=>{
+            loading.close()
+        },3000)
+    })
+</script>
+</body>
+</html>

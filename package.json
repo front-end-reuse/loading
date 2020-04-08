@@ -1,0 +1,35 @@
+{
+  "name": "@ front-end-reuse/loading",
+  "version": "1.0.0",
+  "description": "show and hide loading",
+  "main": "src/index.js",
+  "scripts": {
+    "prebuild": "rimraf dist",
+    "build": "rollup -c"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/front-end-resuse/loading.git"
+  },
+  "keywords": [
+    "loading",
+    "js",
+    "css"
+  ],
+  "author": "freeliu",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/front-end-resuse/loading/issues"
+  },
+  "dependencies": {
+    "svg-loaders": "git+https://github.com/SamHerbert/SVG-Loaders.git"
+  },
+  "homepage": "https://github.com/front-end-resuse/loading#readme",
+  "devDependencies": {
+    "rimraf": "^2.6.3",
+    "rollup": "^1.17.0",
+    "rollup-plugin-babel": "^4.3.3",
+    "rollup-plugin-img": "^1.1.0",
+    "rollup-plugin-node-resolve": "^5.2.0"
+  }
+}
